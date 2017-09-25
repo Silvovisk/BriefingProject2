@@ -1,0 +1,105 @@
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+#titulo{
+    color: #7548ad;
+    font-weight: bold;
+}
+/* Header */
+header{    
+    background-image: url('../img/paisagem.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: #b3e0ff;
+    position: relative;
+}
+header h1{
+    padding-top: 15px;
+}
+
+img.center{
+    display:block;
+    margin: 0 auto;
+}
+
+nav{
+   padding: 2px 0;
+   background-color: #ff0099;   
+   position: relative; /* relative / absolute / fixed */
+   width: 50%;
+   top:0;
+   bottom: 0;
+   /* bottom: / left: / right:  */
+
+}
+
+/* Mudando a cor dos itens do menu*/
+nav ul li a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+nav ul li{
+    display:inline;
+    padding-right: 10px; 
+}
+
+/* Tabela */
+.linhaAzul{
+    color:#0099ff;
+}
+
+table, th, td{
+    background-color:yellow;
+    border: 1px dashed #000000;
+    margin: 10px auto;
+}
+
+
+/*Resumo*/
+section{
+background-color: #ffffff;
+color: #000000;
+min-width: 100%;
+min-height: 100%;
+padding: 10px 20px;
+box-sizing:border-box;
+}
+
+section h3{
+    text-align:center;
+}
+
+section img{
+    max-height:80px;
+    border-radius:50%;
+}
+
+
+footer{
+    text-align:center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 2px;
+}   
+
+footer a{
+    color:#8686ac;
+    text-decoration:none;
+}
+footer a:hover{
+    color:#d1d1e0;
+}
+
+.heart{
+    color:#ff0000;
+    font-weight:bold;
+}
